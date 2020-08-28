@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body style="text-align: center;">
+    <h1 id='aa'>Tic Tac Toe</h1>
+<table>
+  <tr>
+    <td onclick="mark(1)" id="s1"></td>
+    <td class="vert" onclick="mark(2)" id="s2"></td>
+    <td onclick="mark(3)" id="s3"></td>
+  </tr>
+  <tr>
+    <td class="hori" onclick="mark(4)" id="s4"></td>
+    <td class="vert hori" onclick="mark(5)" id="s5"></td>
+    <td class="hori" onclick="mark(6)" id="s6"></td>
+  </tr>
+  <tr>
+    <td onclick="mark(7)" id="s7"></td>
+    <td class="vert" onclick="mark(8)" id="s8"></td>
+    <td onclick="mark(9)" id="s9"></td>
+  </tr>
+</table>
+<br>
+<a href="main.html"><button>Back To Main Page</button></a>
+<button onclick="resetgame()">Reset Game</button>
+<br>
+<p id="result">Game In Progress</p>
+</body>
+<script src="TicTacToeAi.js"></script>
+<script src="scriptbot.js"></script>
+
+</html>
